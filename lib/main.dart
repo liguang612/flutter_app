@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:timelines/timelines.dart';
+
+import 'timeline/timeline_tile_builder.dart';
+import 'timeline/timeline_theme.dart';
+import 'timeline/timelines.dart';
 
 void main() {
   runApp(MaterialApp(

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 List<String> titles = <String>['Sunny', 'Cloudy', 'Rainy'];
 
 void main() {
-  runApp( MaterialApp(
+  runApp(MaterialApp(
     home: const MyAppBar3(),
     theme: ThemeData(useMaterial3: true),
     debugShowCheckedModeBanner: false,
